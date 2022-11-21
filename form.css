@@ -1,0 +1,12 @@
+ form p{
+    display: none;
+}
+ input:hover{
+    background-color: rgb(224, 225, 226);
+ }
+ input:focus{
+    background-color: white;
+ }
+input:hover + p{
+    display: inline;
+}

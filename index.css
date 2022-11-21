@@ -1,0 +1,172 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+p a{
+	color: black;
+	text-decoration: none;
+}
+.marquee{
+	margin: 10px 0px;
+	text-align: center;
+}
+
+.marquee a:hover{
+	background-color: red;
+	color: white;
+}
+.marquee marquee{
+	background: rgba(199, 199, 197, 0.911);
+	height: 40px;
+	box-sizing: border-box;
+	padding: 8px 0px 8px 20px;
+	text-transform: uppercase;
+}
+.menu-bar{
+	background-color: rgba(118, 21, 138, 0.733);
+	text-align: center;
+	position: relative;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+}
+.menu-bar ul li.main{
+	width: 125px;
+	padding: 17px 5px;
+	height: 60px;
+	border-left: 1px solid rgb(255, 255, 255);
+}
+.menu-bar ul li.main a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.sub-menu-bar ol li.sub-main a{
+	color: black;
+	text-transform: capitalize;
+}
+.sub-menu-bar ol li.sub-main a:hover{
+	color: white;
+}
+.menu-bar ul li.main:hover{
+	background: rgba(95, 12, 121, 0.863);
+}
+.sub-menu-bar{
+	display:none ;
+	margin-top: 15px;
+    
+}
+ol li.sub-main{
+	list-style: none;
+	background-color: rgb(255, 255, 255);
+	width: 200px;
+	height: 30px;
+	margin-right: 0px;
+	padding: 5px 10px;
+	text-align: left;
+	border-bottom: 1px dotted rgb(151, 150, 149);
+	box-sizing: border-box;
+}
+.menu-bar ul li.main:hover .sub-menu-bar{
+	display: block;
+	color: black;
+}
+ol li.sub-main:hover{
+	background-color:rgba(95, 12, 121, 0.863) ;
+	color: white;
+	padding-left: 10px;
+}
+div.news{
+	display: inline-flex;
+}
+.news div.update{
+	width: 55%;
+	height: 400px;
+	background: rgb(255, 254, 254);
+	box-sizing: border-box;
+	border: 1px solid rgb(194, 188, 188);
+	margin: 50px 50px 20px 70px;
+}
+.color-box{
+	width: 45%;
+	height: 400px;
+	background: rgb(255, 254, 254);
+	box-sizing: border-box;
+	margin: 50px 50px 20px 0px;
+}
+p.head{
+	color: blue;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgb(194, 188, 188);
+	padding: 15px 20px;
+}
+.update marquee{
+	padding: 0px 15px;
+}
+marquee p.moving{
+	border-bottom: 1px solid rgb(194, 188, 188);
+	padding-bottom: 3px;
+}
+div.color-box p.color{
+	padding: 10px;
+	margin: 30px;
+	background: rgb(221, 107, 107);
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+div.color-box p.color:hover{
+	background: rgb(228, 52, 52);
+}
+div.color-box p.color a:hover{
+	color:white;
+}
+.bottom{
+	display: inline-flex;
+	background: rgb(235, 233, 233);
+	padding: 50px 50px 10px 50px;
+}
+
+.bottom-left{
+	margin:0px 100px 0px 60px;
+}
+.bottom-left b{
+	font-size: larger;
+}
+p.font{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family:'Times New Roman', Times, serif;
+	font-size: larger;
+}
+.last{
+	text-align: center;
+	background: rgb(236, 121, 44);
+}
+p.last-one{
+	text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+	margin-bottom: 10px;
+	padding-top: 50px;
+}
+p.last-two{
+	text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+	margin-bottom: 10px;
+}
+p.last-three{
+	text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+	margin-bottom: 10px;
+}
+div.l-img{
+	text-align: center;
+}
+
